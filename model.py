@@ -15,7 +15,7 @@ import pickle
 
 df_recom = pd.read_csv('recommendationdata.csv')
 df_all = pd.read_csv('sample30.csv')
-df = pd.read_csv('recompivot.csv', index_col=0)
+#df = pd.read_csv('recompivot.csv', index_col=0)
 
 model = pickle.load(open('model.pkl', 'rb'))
 
