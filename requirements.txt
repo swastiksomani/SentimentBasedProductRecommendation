@@ -26,7 +26,6 @@ boto==2.49.0
 Bottleneck==1.2.1
 cachetools==4.1.1
 catalogue==2.0.1
-catboost==0.24.3
 category-encoders==2.2.2
 certifi==2019.9.11
 cffi==1.12.3
