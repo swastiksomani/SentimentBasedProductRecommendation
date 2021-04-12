@@ -73,7 +73,7 @@ def predict():
 
         df_recom = pd.read_csv('recommendationdata.csv')
         df_all = pd.read_csv('sample30.csv')
-        df = pd.read_csv('recompivot.csv', index_col=0)
+        #df = pd.read_csv('recompivot.csv', index_col=0)
     
 
         ratingsd=df_recom.pivot(index='name',columns= 'reviews_username',values='rating').fillna(0)
