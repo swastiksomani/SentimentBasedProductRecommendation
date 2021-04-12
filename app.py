@@ -72,7 +72,7 @@ def predict():
         print(username)
 
         df_recom = pd.read_csv('recommendationdata.csv')
-        df_all = pd.read_csv('sample30.csv')
+        #df_all = pd.read_csv('sample30.csv')
         #df = pd.read_csv('recompivot.csv', index_col=0)
     
 
