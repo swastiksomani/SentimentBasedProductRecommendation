@@ -1,0 +1,37 @@
+
+<html lang='en'>
+      <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <meta charset="UTF-8" />
+            <title>Recommendation System</title>
+            <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+            integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+            crossorigin="anonymous"
+            />
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <script>
+            function toggleSpin(){
+            document.getElementById("spinner").css("display","block");
+            }
+            </script>
+            </head>
+            <body>
+            <div class="container">
+            <div class="form-group">
+            <form method="POST", action="/predict">
+            <label for="email">Username:</label>
+            <input type="text" class="form-control" id="username", name='username'>
+            
+            <input type='submit', name='submit', id="submit", value='submit' class="btn btn-success" onclick="toggleSpin();">
+            <div class="spinner-border" role="status" id="spinner" style="display:none;">
+            <span class="sr-only">Loading...</span>
+            </div>
+            </div>
+            </form>
+            </div>
+            </body>
+</html>
+
+
