@@ -134,7 +134,6 @@ numpy==1.17.2
 numpydoc==0.9.1
 oauthlib==3.1.0
 olefile==0.46
-opencv-python==4.2.0.34
 openpyxl==3.0.0
 opt-einsum==3.3.0
 packaging==20.9
